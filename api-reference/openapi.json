@@ -10,15 +10,26 @@
   },
   "servers": [
     {
-      "url": "http://sandbox.mintlify.com"
+      "url": "https://uat.travl.tech"
     }
   ],
   "security": [
     {
-      "bearerAuth": []
+      "BasicAuth": []
     }
   ],
   "paths": {
+    "/api/v1/bus/city":{
+      "post":{
+        "summary":"Search city",
+        "parameters":[
+          {
+            "name":"City"
+
+          }
+        ]
+      }
+    },
     "/plants": {
       "get": {
         "description": "Returns all plants from the system that the user has access to",
@@ -208,9 +219,9 @@
       }
     },
     "securitySchemes": {
-      "bearerAuth": {
+      "BasicAuth": {
         "type": "http",
-        "scheme": "bearer"
+        "scheme": "basic"
       }
     }
   }
