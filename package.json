@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "mintlify": "^4.0.170",
+    "remark": "^13.0.0"
+  }
+}
