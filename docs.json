@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
    "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "TRAVL TECH",
  
   "colors": {
     "primary": "#28213d",
@@ -17,7 +17,7 @@
           {
             "group": "Get Started",
             "pages": [
-              "index"
+              "introduction"
             ]
           }
         ]
@@ -33,12 +33,58 @@
           },
           {
             "group": "API's Endpoint",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/bus/search-city",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
+            "pages":[
+        {
+          "group": "FLIGHT",
+          "icon":"plane",
+          "pages": [
+            "api-reference/flight/search-city",
+            "api-reference/flight/flight-search",
+            "api-reference/flight/flight-filter",
+            "api-reference/flight/fare-rule",
+            "api-reference/flight/ssr",
+            "api-reference/flight/fare-quotation",
+            "api-reference/flight/seat-map",
+            "api-reference/flight/temp-booking",
+            "api-reference/flight/payment",
+            "api-reference/flight/confirm-book",
+            "api-reference/flight/cancel-ticket",
+            "api-reference/flight/ticket-details"
+          ]
+        },
+        {
+          "group": "HOTEL",
+          "icon":"building",
+          "pages": [
+            "api-reference/hotel/search-city",
+            "api-reference/hotel/hotel-search",
+            "api-reference/hotel/hotel-filter",
+            "api-reference/hotel/hotel-details",
+            "api-reference/hotel/temp-booking",
+            "api-reference/hotel/payment",
+            "api-reference/hotel/confirm-book",
+            "api-reference/hotel/cancel-ticket",
+            "api-reference/hotel/cancellation-policy",
+            "api-reference/hotel/booking-details"
+          ]
+        },
+        {
+          "group": "BUS",
+          "icon":"bus",
+          "pages": [
+            "api-reference/bus/search-city",
+            "api-reference/bus/bus-search",
+            "api-reference/bus/bus-filter",
+            "api-reference/bus/seat-map",
+            "api-reference/bus/temp-booking",
+            "api-reference/bus/payment",
+            "api-reference/bus/confirm-book",
+            "api-reference/bus/cancel-ticket",
+            "api-reference/bus/cancel-charge",
+            "api-reference/bus/ticket-details"
+          ]
+        }
+      ]
           }
         ]
       }
