@@ -1,35 +1,28 @@
 {
   "$schema": "https://mintlify.com/docs.json",
+<<<<<<< HEAD
   "theme": "maple",
   "name": "My Doc",
+=======
+   "theme": "mint",
+  "name": "TRAVL TECH",
+ 
+>>>>>>> 95b924618e98f6797610ccc89f7311ca67f9fd4e
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#28213d",
+    "light": "#7152f4",
+    "dark": "#28213d"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Documentation",
         "groups": [
           {
             "group": "Get Started",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "introduction"
             ]
           }
         ]
@@ -44,13 +37,59 @@
             ]
           },
           {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
+            "group": "API's Endpoint",
+            "pages":[
+        {
+          "group": "FLIGHT",
+          "icon":"plane",
+          "pages": [
+            "api-reference/flight/search-city",
+            "api-reference/flight/flight-search",
+            "api-reference/flight/flight-filter",
+            "api-reference/flight/fare-rule",
+            "api-reference/flight/ssr",
+            "api-reference/flight/fare-quotation",
+            "api-reference/flight/seat-map",
+            "api-reference/flight/temp-booking",
+            "api-reference/flight/payment",
+            "api-reference/flight/confirm-book",
+            "api-reference/flight/cancel-ticket",
+            "api-reference/flight/ticket-details"
+          ]
+        },
+        {
+          "group": "HOTEL",
+          "icon":"building",
+          "pages": [
+            "api-reference/hotel/search-city",
+            "api-reference/hotel/hotel-search",
+            "api-reference/hotel/hotel-filter",
+            "api-reference/hotel/hotel-details",
+            "api-reference/hotel/temp-booking",
+            "api-reference/hotel/payment",
+            "api-reference/hotel/confirm-book",
+            "api-reference/hotel/cancel-ticket",
+            "api-reference/hotel/cancellation-policy",
+            "api-reference/hotel/booking-details"
+          ]
+        },
+        {
+          "group": "BUS",
+          "icon":"bus",
+          "pages": [
+            "api-reference/bus/search-city",
+            "api-reference/bus/bus-search",
+            "api-reference/bus/bus-filter",
+            "api-reference/bus/seat-map",
+            "api-reference/bus/temp-booking",
+            "api-reference/bus/payment",
+            "api-reference/bus/confirm-book",
+            "api-reference/bus/cancel-ticket",
+            "api-reference/bus/cancel-charge",
+            "api-reference/bus/ticket-details"
+          ]
+        }
+      ]
           }
         ]
       }
@@ -58,20 +97,16 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
+          "anchor": "Go to website",
           "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "icon": "house"
         },
         {
-          "anchor": "Community",
+          "anchor": "Contact",
           "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "icon": "phone"
         }
+      
       ]
     }
   },
