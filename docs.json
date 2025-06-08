@@ -1,13 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-<<<<<<< HEAD
   "theme": "maple",
   "name": "My Doc",
-=======
-   "theme": "mint",
-  "name": "TRAVL TECH",
- 
->>>>>>> 95b924618e98f6797610ccc89f7311ca67f9fd4e
   "colors": {
     "primary": "#28213d",
     "light": "#7152f4",
